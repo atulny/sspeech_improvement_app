@@ -3,7 +3,7 @@ import 'package:speech_improvement_app/screens/home_screen.dart';
 import 'package:speech_improvement_app/utils/theme.dart';
 
 class SpeechApp extends StatelessWidget {
-  const SpeechApp({super.key});
+  const SpeechApp({Key? key}) : super(key: key);
 
 
   @override

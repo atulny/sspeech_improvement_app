@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LanguageSelector extends StatefulWidget {
-  const LanguageSelector({super.key});
+  const LanguageSelector({Key? key}) : super(key: key);
 
   @override
   State<LanguageSelector> createState() => _LanguageSelectorState();

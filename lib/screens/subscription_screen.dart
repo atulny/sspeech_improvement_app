@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SubscriptionScreen extends StatefulWidget {
-  const SubscriptionScreen({super.key});
+  const SubscriptionScreen({Key? key}) : super(key: key);
 
   @override
   State<SubscriptionScreen> createState() => _SubscriptionScreenState();
